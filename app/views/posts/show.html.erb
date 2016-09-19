@@ -1,14 +1,22 @@
 <p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Title:</strong>
-  <%= @post.title %>
+<div class="col-xs-12 col-sm-9" style="padding-left: 0px">
+  <div class="form-group">
+  <p style="padding: 6px 0px">
+    <strong style="align-content: center">Title:</strong>
+    <%= @post.title %>
+  <p>
+    <strong>Content:</strong>
+    <%= markdown @post.content %>
+  </p>
+  <%= link_to 'Back', posts_path %>
+</div>
+</div>
 </p>
 
-<p>
-  <strong>Content:</strong>
-  <%= markdown @post.content %>
-</p>
+<div class="col-xs-12 col-sm-3">
+  <a class="btn btn-primary" href="<%=edit_post_path %>"> abc</a>
+</div>
 
 
-<%= link_to 'Back', posts_path %>
+
+

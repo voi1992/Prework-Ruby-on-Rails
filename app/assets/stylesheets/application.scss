@@ -1,5 +1,11 @@
 @import "bootstrap";
 
+.text-row-limit{
+  overflow: hidden;
+  line-height: 150%;
+  height: 3em;
+
+}
 
 body {
     padding-top: 51px;

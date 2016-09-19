@@ -1,33 +1,19 @@
-
-<% if current_user.image_url.nil? %>
-  <div style="display:inline-block">
-    <image height="90px" src="http://www.phpclasses.org/browse/view/flash/file/64364/name/noavatar.jpg" width="90px"></image>
-  </div>
-  <div style="display:inline-block">
-    <div> Email</div>
-    <div> Telephone</div>
-  </div>
+<%
+   if current_user.image_url.nil? %>
+    <div style="display:inline-block">
+      <image height="90px" src="http://www.phpclasses.org/browse/view/flash/file/64364/name/noavatar.jpg" width="90px"></image>
+    </div>
+    <div style="display:inline-block">
+      <div> Emai<%= current_user.name %></div>
+      <div> Telephone <%= current_user.telephone %></div>
+    </div>
 <% end %>
 </br>
 <%= link_to "Log out", destroy_user_session_path, method: :delete %>
-
 <h1>Posts</h1>
-
-
-  <% @posts.each do |post| %>
-
-      <div><%= post.title %></div>
-
-      <div><%= link_to 'Show', post %></div>
-      <% if post.user == current_user %>
-        <div><%= link_to 'Edit', edit_post_path(post) %></div>
-        <div><%= link_to 'Destroy', post, method: :delete, data: {confirm: 'Are you sure?'} %></div>
-      <% end %>
-
-      <div><%= markdown  post.content %></div>
-  <% end %>
-
-
-<br>
-
+<% @posts.each do |post| %>
+    <br>
+    <a href="<%=post_path post %>" style="text-transform: uppercase;font-size: 1.2rem"><%= post.title %></a>
+    <div class="text-row-limit"><%= markdown post.content %></div>
+<% end %>
 <%= link_to 'New Post', new_post_path %>
