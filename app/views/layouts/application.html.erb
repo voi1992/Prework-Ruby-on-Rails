@@ -9,42 +9,53 @@
 </head>
 
 <body>
-<div class="page-container">
-  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
 
-      <div class="navbar-header">
 
-        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation"  >
-          <a class="navbar-brand" style="float:right;padding-right: 5px" href="#" >CoderSchool</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
+<nav class="navbar navbar-dark bg-primary">
   <div class="container">
-    <div class="row row-offcanvas row-offcanvas-left">
+    <a class="navbar-brand" href="<%= new_user_session_path %>">
+      Prework Ruby on Rails
+    </a>
+    <ul class="nav navbar-nav pull-xs-right">
+      <li class="nav-item active">
+        <% if user_signed_in? %>
+            <%= link_to "Log out", destroy_user_session_path , method: :delete,class: "nav-link" %>
 
-      <!-- sidebar -->
-      <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
-        <h2 style="text-transform: uppercase;color: #33acb7; text-align: right; width: 95%;">Website</h2>
-        <ul class="nav">
-
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">About</a></li>
-
+        <% else %>
+            <a class="nav-link" href="<%= new_user_session_path %>">Log in</a></li>
+        <% end %>
         </ul>
-      </div>
+    <form class="form-inline">
+      <input class="form-control" type="text" placeholder="Search">
+      <button class="btn btn-outline-info" type="submit">Search</button>
+    </form>
+  </div>
+  <!-- </div>-->
+</nav>
 
-      <!-- main area -->
-      <div class="col-xs-12 col-sm-9" style="padding-left: 50px">
 
-        <%= yield %>
-      </div><!-- /.col-xs-12 main -->
-    </div><!--/.row-->
-  </div><!--/.container-->
+<div class="container" style="margin-top: 20px">
+  <div class="row row-offcanvas row-offcanvas-left">
 
-</div><!--/.page-container-->
+    <!-- sidebar -->
+    <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+      <h2 style="text-transform: uppercase;color: #33acb7; text-align: left; width: 95%;">Website</h2>
+      <ul class="nav">
+
+        <li><a href="<%= posts_path %>">Blog</a></li>
+        <li><a href="#">About</a></li>
+
+      </ul>
+    </div>
+
+    <!-- main area -->
+    <div class="col-xs-12 col-sm-9">
+
+      <%= yield %>
+    </div><!-- /.col-xs-12 main -->
+  </div><!--/.row-->
+</div><!--/.container-->
+
 
 </body>
 </html>

@@ -31,9 +31,17 @@
       <%= f.text_field :name, autocomplete: "off" %>
     </div>
 
+    <div class="field">
+      <%= f.label :telephone %> <br/>
+      <%= f.text_field :telephone, autocomplete: "off" %>
+    </div>
+
+
     <div class="actions">
       <%= f.submit "Sign up" %>
     </div>
+
+
 <% end %>
 
 <%= render "users/shared/links" %>

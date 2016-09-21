@@ -1,19 +1,19 @@
-<%
-   if current_user.image_url.nil? %>
-    <div style="display:inline-block">
-      <image height="90px" src="http://www.phpclasses.org/browse/view/flash/file/64364/name/noavatar.jpg" width="90px"></image>
-    </div>
-    <div style="display:inline-block">
-      <div> Emai<%= current_user.name %></div>
-      <div> Telephone <%= current_user.telephone %></div>
+<h1>Posts</h1>
+
+<% @posts.each do |post| %>
+    <div class="list-group" style="margin-top: 20px">
+      <a class="list-group-item list-group-item-action list-group-item-info" href="<%= post_path post.id %>">
+        <h3><%= post.title %></h3>
+        <p class="list-group-item-text">
+          <%= "#{post.user.name} posted at #{post.created_at}" %>
+          <% if current_user == post.user %>
+              <%= link_to "Delete", post, method: :delete, class: "btn-danger", style: "float:right" %>
+          <% end %>
+        </p>
+
+      </a>
     </div>
 <% end %>
 </br>
-<%= link_to "Log out", destroy_user_session_path, method: :delete %>
-<h1>Posts</h1>
-<% @posts.each do |post| %>
-    <br>
-    <a href="<%=post_path post %>" style="text-transform: uppercase;font-size: 1.2rem"><%= post.title %></a>
-    <div class="text-row-limit"><%= markdown post.content %></div>
-<% end %>
+
 <%= link_to 'New Post', new_post_path %>
