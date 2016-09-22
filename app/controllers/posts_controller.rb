@@ -8,9 +8,17 @@ class PostsController < ApplicationController
     @posts = Post.all
   end
 
+  def search
+    @posts = Post.where("title like ?","%#{params[:search]}%")
+    render "posts/index"
+  end
+
   # GET /posts/1
   # GET /posts/1.json
   def show
+
+    @post.viewer = (@post.viewer) +1
+    @post.save
   end
 
 

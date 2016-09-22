@@ -19,16 +19,16 @@
     <ul class="nav navbar-nav pull-xs-right">
       <li class="nav-item active">
         <% if user_signed_in? %>
-            <%= link_to "Log out", destroy_user_session_path , method: :delete,class: "nav-link" %>
+            <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "nav-link" %>
 
         <% else %>
             <a class="nav-link" href="<%= new_user_session_path %>">Log in</a></li>
         <% end %>
         </ul>
-    <form class="form-inline">
-      <input class="form-control" type="text" placeholder="Search">
-      <button class="btn btn-outline-info" type="submit">Search</button>
-    </form>
+    <%= form_tag search_posts_path, method: :get, class: "form-inline" do %>
+        <%= text_field_tag 'search', nil, class: "form-control" %>
+        <%= submit_tag "Search",class: "btn btn-outline-info" %>
+    <% end %>
   </div>
   <!-- </div>-->
 </nav>
