@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="10675aad-5cfe-4945-8dce-6b334eb0462e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <ignored path="13-9-2016.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="15">
+              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -114,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+            <state relative-caret-position="289">
+              <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -166,10 +165,10 @@
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20160922131124_addviewertopost.rb" />
         <option value="$PROJECT_DIR$/app/views/posts/index.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -373,7 +372,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="gemfi&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/Gemfile&#10;app&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/app/views/layouts/application.html.erb&#10;post&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/app/controllers/posts_controller.rb&#10;a&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/app/views/layouts/application.html.erb&#10;routes&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/config/routes.rb&#10;appli&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/app/views/layouts/application.html.erb&#10;appl&#9;ACTION&#9;ChangesView.ApplyPatch&#10;applica&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/app/controllers/application_controller.rb&#10;ap&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/app/assets/stylesheets/application.scss&#10;application&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/app/views/layouts/application.html.erb&#10;user&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/app/models/user.rb&#10;dev&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/config/initializers/devise.rb&#10;applic&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/app/views/layouts/application.html.erb&#10;s&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/app/views/posts/show.html.erb&#10;css&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/app/assets/stylesheets/application.scss&#10;application.sc&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/app/assets/stylesheets/application.scss&#10;p&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/app/views/layouts/application.html.erb&#10;bootstra&#9;null&#9;null&#10;gemfile&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/Gemfile&#10;devise&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/config/initializers/devise.rb&#10;databas&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/config/database.yml&#10;gemfil&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/Gemfile&#10;ge&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/Gemfile&#10;seed&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/db/seeds.rb&#10;da&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/config/database.yml&#10;data&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/config/database.yml&#10;devis&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/config/initializers/devise.rb&#10;route&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/config/routes.rb&#10;applicationcon&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="routes&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/config/routes.rb&#10;gemfi&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/Gemfile&#10;app&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/app/views/layouts/application.html.erb&#10;post&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/app/controllers/posts_controller.rb&#10;a&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/app/views/layouts/application.html.erb&#10;appli&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/app/views/layouts/application.html.erb&#10;appl&#9;ACTION&#9;ChangesView.ApplyPatch&#10;applica&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/app/controllers/application_controller.rb&#10;ap&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/app/assets/stylesheets/application.scss&#10;application&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/app/views/layouts/application.html.erb&#10;user&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/app/models/user.rb&#10;dev&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/config/initializers/devise.rb&#10;applic&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/app/views/layouts/application.html.erb&#10;s&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/app/views/posts/show.html.erb&#10;css&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/app/assets/stylesheets/application.scss&#10;application.sc&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/app/assets/stylesheets/application.scss&#10;p&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/app/views/layouts/application.html.erb&#10;bootstra&#9;null&#9;null&#10;gemfile&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/Gemfile&#10;devise&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/config/initializers/devise.rb&#10;databas&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/config/database.yml&#10;gemfil&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/Gemfile&#10;ge&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/Gemfile&#10;seed&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/db/seeds.rb&#10;da&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/config/database.yml&#10;data&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/config/database.yml&#10;devis&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/config/initializers/devise.rb&#10;route&#9;FILE&#9;file:///root/RubymineProjects/13-9-2016/config/routes.rb&#10;applicationcon&#9;null&#9;null" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../prework-coderschool/pre-exam-project" />
@@ -640,16 +639,16 @@
       <workItem from="1474295399780" duration="10583000" />
       <workItem from="1474380129269" duration="12270000" />
       <workItem from="1474469614395" duration="711000" />
-      <workItem from="1474549586216" duration="13624000" />
+      <workItem from="1474549586216" duration="14164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86349000" />
+    <option name="totallyTimeSpent" value="86889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1286" height="1026" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.246875" sideWeight="0.7887701" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -657,7 +656,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30882353" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30882353" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23382352" sideWeight="0.21122995" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1031,14 +1030,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1057,8 +1048,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        <state relative-caret-position="289">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
           <folding />
         </state>
       </provider>
