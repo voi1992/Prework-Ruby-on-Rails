@@ -18,7 +18,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'devise'
 gem 'redcarpet', '~> 3.3', '>= 3.3.4'
 gem 'faker'
-
+gem 'bootstrap-datepicker-rails'
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.1.0'
 end
