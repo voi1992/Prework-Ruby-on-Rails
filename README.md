@@ -42,7 +42,7 @@ Here's a walkthrough of implemented user stories:
 > `![Video Walkthrough](walkthrough.gif)` 
 > 
 
-![Video Walkthrough](/path/to/your/gif/file)
+![Video Walkthrough](https://github.com/voi1992/prework-ruby-on-rails/blob/master/app/git/fail_validation.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
