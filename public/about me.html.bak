@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>Title</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="stylesheet/aboutme.css">
+  </head>
+  <body>
+    <div class="container" style="margin-top: 300px">
+      <div style="float: left; text-align: left; margin-left: 120px;" id="div_left">
+        
+      </div>
+      <div style="text-align: left;"><img src="http://s11.postimg.org/pb023bipf/PIXECT_20160924103634.jpg"
+          height="150" width="150"></div>
+    </div>
+  </body>
+</html>
