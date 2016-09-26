@@ -41,9 +41,10 @@ Here's a walkthrough of implemented user stories:
 > HINT: You can put a `walkthrough.gif` file in your project folder, add to git, and use the following syntax to embed it:  
 > `![Video Walkthrough](walkthrough.gif)` 
 > 
-
+**sign up with wrong validations**
 ![Video Walkthrough](https://github.com/voi1992/prework-ruby-on-rails/blob/master/gif/fail_validation.gif)
-
+**sign up successful and redirect to post**
+![Video Walkthrough](https://github.com/voi1992/prework-ruby-on-rails/blob/master/gif/sign_up_success_and_redirect_to_post.gif)
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
