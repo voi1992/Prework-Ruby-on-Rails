@@ -7,7 +7,9 @@
         <p class="list-group-item-text">
           <%= "#{post.user.name} posted at #{post.created_at} Viewer: #{post.viewer}" %>
           <% if current_user == post.user %>
-              <%= link_to "Delete", post, method: :delete, class: "btn-danger", style: "float:right" %>
+              <%= link_to "Delete", post, method: :delete, class: "btn-danger", style: "float:right", data: {
+                  confirm: "Are you sure?"}
+              } %>
           <% end %>
         </p>
 
