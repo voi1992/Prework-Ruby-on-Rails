@@ -31,7 +31,9 @@ The following **optional** features are implemented:
 > HINT: if you are unsure how to implement the Search feature, you can Google how to implement a simple search form. For example, one of the sites you will find is [this](http://www.jorgecoca.com/buils-search-form-ruby-rails/)
 
 The following **additional** features are implemented:
-
+    
+* [ ] Pagination Post
+* [ ] Modify my app scale with iphone 
 - [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough 
@@ -55,8 +57,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-
+Because it's limited time so  I can add comment ,tag, pagination to my app I will implement it to make app better
+Thank you
 ## License
 
     Copyright [yyyy] [name of copyright owner]
