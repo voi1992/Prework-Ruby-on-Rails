@@ -47,6 +47,7 @@ Here's a walkthrough of implemented user stories:
 ![Video Walkthrough](https://github.com/voi1992/prework-ruby-on-rails/blob/master/gif/sign_up_success_and_redirect_to_post.gif)
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
+
 ## Notes
 
 Describe any challenges encountered while building the app.
